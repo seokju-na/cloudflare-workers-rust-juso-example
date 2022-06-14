@@ -1,7 +1,9 @@
-name = "rustwasm-worker-template"
-type = "javascript"
+name = "juso"
 workers_dev = true
 compatibility_date = "2022-01-20"
+kv_namespaces = [
+  { binding = "JUSO_CACHE", id = "8130d2367d76466586000b5829ebe631", preview_id = "d4b40b6864164173ae1b9940c75c5483" }
+]
 
 [vars]
 WORKERS_RS_VERSION = "0.0.9"
